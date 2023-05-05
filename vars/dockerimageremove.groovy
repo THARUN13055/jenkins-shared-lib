@@ -1,3 +1,3 @@
-def call(String project, String imageTag, String hubUser){
+def call(){
   sh "docker rmi -f ${docker images -aq}"
 }
