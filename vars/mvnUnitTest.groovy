@@ -1,3 +1,3 @@
 def call(){
-    sh "sudo mvn clean install"
+    sh "mvn clean install"
 }
